@@ -7,20 +7,20 @@ class ATM:
 
     def start(self):
         while True:
-            print("\n\n1. Simpan Uang")
+            print("1. Simpan Uang")
             print("2. Tarik Uang")
             print("3. Periksa Saldo")
             print("4. Keluar")
 
-            option = int(input("Masukkan nomor opsi yang diinginkan : "))
+            pilihan = int(input("Masukkan nomor opsi yang diinginkan : "))
 
-            if option == 1:
+            if pilihan == 1:
                 self.simpan_uang()
-            elif option == 2:
+            elif pilihan == 2:
                 self.tarik_uang()
-            elif option == 3:
+            elif pilihan == 3:
                 self.periksa_saldo()
-            elif option == 4:
+            elif pilihan == 4:
                 self.keluar()
             else:
                 print("Maaf opsi yang anda masukkan salah, tolong coba lagi.")
